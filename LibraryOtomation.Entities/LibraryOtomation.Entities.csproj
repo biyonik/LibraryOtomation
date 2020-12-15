@@ -41,8 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Kitap.cs" />
+    <Compile Include="Abtract\IEntity.cs" />
+    <Compile Include="Concrete\Adres.cs" />
+    <Compile Include="Concrete\Barkod.cs" />
+    <Compile Include="Concrete\Kitap.cs" />
+    <Compile Include="Concrete\KitapHareket.cs" />
+    <Compile Include="Concrete\Sinif.cs" />
+    <Compile Include="Concrete\Tanim.cs" />
+    <Compile Include="Concrete\Telefon.cs" />
+    <Compile Include="Concrete\Uye.cs" />
+    <Compile Include="Concrete\Yazar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ComplexType" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
